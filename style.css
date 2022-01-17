@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.container  {
+  width: 980px;
+  margin: 0 auto;
+}
+.border-box {
+  border: 1px solid #000;
+}
+#nav {
+  margin-bottom: 10px;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+#header>div{
+  padding: 0 100px;
+}
+.content .section01 {
+  display: flex;
+  justify-content: space-between;
+}
+.content .section01 .main {
+  width: 600px;
+}
+.content .section01 .aside {
+  width: 360px;
+}
+.content .aside .block01 {
+  height: 300px;
+}
+.content .aside .block02 p {
+  text-align: left;
+}
+.content .aside .block02 .block02-boxgroup {
+  display: flex;
+  justify-content: space-between;
+}
+.content .aside .block02-boxgroup div {
+  width: 110px;
+  height: 110px;
+}
