@@ -1,0 +1,66 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  text-transform: uppercase;
+}
+.element{
+  width: 980px;
+  line-height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+.border-box{
+  border: 1px solid #000000;
+}
+Nav{
+  margin-bottom: 5px;
+  border: solid 1px;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.flexcontainer > div {
+  width: 30%;
+  margin-bottom: 5px;
+ border: solid 1px #000000;
+}
+
+.main {
+  width: 600px;
+  height: 321px;
+  margin-bottom: 10px;
+}
+
+.blk1 {
+ padding: 48px 174px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex > div {
+ margin-bottom: 5px;
+ border: 1px solid #000000;
+}
+.aside {
+ width: 36%;
+ height: 317px;
+}
+.blk2 {
+ width: 50px;
+ height: 200px;
+ text-align: left;
+}
+.g1, .g2,.g3{
+ padding: 18px 31px;
+}
+footer {
+  height:50px ;
+  border: solid 1px #000000 ;
+}
+.client{
+  text-align: left;
+}
