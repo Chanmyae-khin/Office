@@ -1,0 +1,162 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+header {
+background-color: #4c62a2;
+margin-bottom: 20px;
+}
+footer {
+  background-color: #96a9ce;
+}
+.element{
+  height: 50px;
+}
+.a1 {
+  background-color: #7cc19b;
+  height: 1010px;
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.a2 {
+  background-color: #dbdcb5;
+  height: 1010px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+#c1 {
+  display: flex;
+  flex-direction: row;
+}
+.a3 {
+  background-color: #416e4a;
+  height: 1010px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.a4 {
+  background-color: #3f6485;
+  height: 1000px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.b1 {
+   background-color: #526589;
+   height: 17%;
+}
+.b2 {
+   background-color: #a8cab3;
+   height: 17%;
+}
+.b3{
+  background-attachment: #87e3ce;
+  height: 17%;
+}
+.b4 {
+    background-color: #baad2c;
+    height: 17%;
+}
+.b5 {
+    background-color: #ddacdf;
+    height: 17%;
+}
+.b6 {
+   background-color: #46953a;
+   height: 17%;
+}
+.c1 {
+  background-color: #bc5479;
+  height: 17%;
+}
+.c2 {
+  background-color: #317f5a;
+  height: 17%;
+}
+.c3 {
+  background-color: #60c1b4;
+  height: 17%;
+}
+.c4 {
+  background-color: #749fc9;
+  height: 17%;
+}
+.c5 {
+  background-color: #b6e3b9;
+  height: 17%;
+}
+.c6 {
+  background-color: #458f8b;
+  height:17%;
+}
+.d1 {
+  background-color: #66ba4d;
+  height: 17%;
+}
+.d2 {
+  background-color: #8fe33d;
+  height: 17%;
+}
+.d3 {
+   background-color: #409717;
+   height: 17%;
+}
+.d4 {
+  background-color: #8aee8e;
+  height: 17%;
+}
+.d5 {
+  background-color: #179a53;
+  height:17%;
+}
+.d6 {
+  background-color: #5dc81e;
+  height: 17%;
+}
+.e1 {
+  background-color: #527be5;
+  height:  160px;
+  width: 100%;
+}
+.e2 {
+  background-color: #1cabbe;
+  height:  160px;
+  width: 100%;
+}
+.e3 {
+  background-color: #1a99b0;
+  height:  160px;
+  width: 100%;
+}
+.e4 {
+  background-color: #3580e1;
+  height:  160px;
+  width: 100%;
+}
+.e5 {
+  background-color: #0c2661;
+  height:  160px;
+  width: 100%;
+}
+.e6 {
+  background-color: #21c8e4;
+  height: 160px;
+  width: 100%;
+}
+
+.d-flex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d-flex div{
+  width: 100px;
+}
