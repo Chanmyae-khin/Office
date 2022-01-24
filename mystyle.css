@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Midashi";
+  src: url("/font/Midashi.otf");
+}
+/*box-sizing :border-box*/
+body {
+  width: 1600px;
+  color: #b2b2b2;
+  font-family: "Midashi";
+  font-size: 14px;
+  font-weight: R;
+  margin: 0 auto;
+}
+.head {
+  padding: 70px 73px 52px;
+}
+.ft-left{
+  float: left;
+  text-decoration: none;
+}
+.list {
+  padding: 73px 19px 52px;
+}
+.lista {
+padding: 71px 52px 52px;
+}
+.listb {
+  padding: 71px 11px 52px;
+}
+.listc {
+  padding: 72px 40px 52px;
+}
+.listd {
+  padding: 10px;
+}
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.btn {
+  float: right;
+  background-color: #c01920;
+  padding: 18px;
+  margin: 54px 30px;
+}
+.nav li a{
+  text-decoration: none;
+}
+.main-vs {
+  background-image:url("/img/img_bg.png");
+  margin: -20px;
+ padding: 52px 0px 48px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 44px;
+  text-align: center;
+  padding: 32px 344px;
+  margin-left: 54px;
+}
+.main-para{
+  color: #fefefe;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+  margin: 0px 0px 70px 40px;;
+}
+.vis-tit {
+  font-size: 36px;
+  font-weight: 200;
+  color: #000000;
+}
+span {
+  color: #c01920;
+}
