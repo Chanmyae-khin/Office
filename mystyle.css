@@ -4,21 +4,32 @@
 }
 /*box-sizing :border-box*/
 body {
-  width: 100%;
+  width: 1600px;
   color: #b2b2b2;
   font-family: "Midashi";
   font-size: 14px;
   font-weight: normal;
   margin: 0 auto;
 }
-.head {
+.logo {
   padding: 50px 50px 48px;
+  float: left;
 }
-.ft-left{
+.gnav {
+  float: left;
+  text-decoration: none;
+  padding: 40px 0 5px;
+}
+.gnav a{
+  padding: 10px;
+}
+.nav li {
   float: left;
   text-decoration: none;
 }
-
+.ft-left {
+  float: left;
+}
 .ft-right {
   float: right;
 }
@@ -49,12 +60,12 @@ padding: 53px 26px 50px;
 }
 .ft {
   float: right;
-  padding: 17px 18px;
-  margin: 36px 49px 0px;
+  padding: 17px 17px;
+  margin: 36px 52px 1px;;
 }
 .b {
   padding: 14px 18px;
-  margin: 27px 36px;;
+  margin: 30px 29px;
   display: inline-block;
 }
 .nav li a{
@@ -70,22 +81,20 @@ padding: 53px 26px 50px;
   font-size: 44px;
   text-align: center;
   padding: 30px 159px;
-    margin-left: 84px;
 }
 .main-para{
   color: #fefefe;
   font-size: 14px;
   text-align: center;
   line-height: 27px;
-  margin-left: 71px;
   padding: 4px;
 }
 
 .vis-tit {
-  font-size: 41px;
+  font-size: 42px;
   font-weight: 200;
   color: #000000;
-  padding: 35px 8px;
+  padding: 35px 0px;
   position: relative;
 }
 
@@ -97,7 +106,7 @@ span {
   color: #cd5358;
 }
 .inner {
-  margin: 0 315px;
+  margin: 0 auto;
   width: 960px;
   margin-top: 14px;
 }
@@ -106,51 +115,51 @@ span {
   position: absolute;
   top: 78%;
   right: -42px;
-  width: 100%;
+  width: 90%;
   height: 1px;
   background-color: #cccccc;
   content: '';
   transform: translateY(-50%);
 }
-.mobile.img {
-  margin: -12px 321px;
-}
+
 .mobile {
   background-image: url(../img/img_mobile.png);
 }
 .para {
   color: #000000;
   font-size: 12px;
-  padding: 30px 33px;
+  padding: 29px 30px;
  line-height: 21px;
 }
 
 .tit {
-  padding: 35px 37px;
-  margin: 18px -34px;
+  padding: 33px 32px;
+    margin: 17px -30px;
 }
 .lft-img {
-margin:-29px 0px 25px 5px;;
+  margin: -29px 6px 24px 0px;
 }
+
 .rgh-img {
   margin:-26px -5px 27px;
 }
 h3 {
   font-size: 24px;
   color: #000000;
-  margin: 1px 5px
 }
 .ser_img2 {
-  margin-left: -9px;
+  margin: -4px -12px;
 }
 .ser-pa1 {
-  margin: -7px -35px;
-  padding: 30px 39px;
+  margin: -3px 0px;
+  padding: 30px 0px;
   font-size: 12px;
   line-height: 21px;
+  color: #101010;
 }
 .ser-pa2 {
-  margin: 24px -5px;
+  margin: 28px -11px;
   font-size: 12px;
   line-height: 21px;
+  color: #101010;
 }
