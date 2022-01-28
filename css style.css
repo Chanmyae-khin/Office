@@ -17,27 +17,43 @@ body {
 
 .head {
   height: 119px;
-  padding: 51px 0px 31px 47px;
 }
 .logo {
   float: left;
-  margin-right: 53px;
+  padding: 51px 49px;
 }
-ul li {
+.gnav ul li {
   float: left;
   color: #333333;
   font-size: 12px;
 }
 .gnav {
-  padding: 5px;
+  padding: 2px 9px;
+  float: left;
 }
 .gnav a {
   font-size: 12px;
   text-decoration: none;
-  border: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
   padding: 54px 37px 49px;
+  display: inline-block;
+  color: #333333;
+  position: relative;
 }
 
+.gnav a:hover:after {
+background: url(/img/img_hover.png.png)no-repeat,center/contain;
+position: absolute;
+content: '';
+transform: translateY(-50%);
+top: 1%;
+right: 0px;
+width: 0%;
+}
+
+.gnav ul li:nth-child(4n){
+  border-right: 1px solid #cccccc;
+}
 .ft-left {
   float: left;
 }
@@ -65,18 +81,23 @@ padding: 53px 26px 50px;
   content: "";
 }
 .btn {
+  box-shadow: 0px 5px #850106;
   background-color: #c01920;
   text-decoration: none;
   color: #ffffff;
+  border-radius: 9px;
 }
+
+
+
 .ft {
   float: right;
-  padding: 17px;
-  margin: -12px 52px
+  padding: 14px 20px;
+  margin: 37px 48px;
 }
 .b {
-  padding: 15px 18px;
-  margin: 18px 29px;
+  padding: 12px 21px;
+  margin: 60px 26px;
   display: inline-block;
 }
 .nav li a{
@@ -102,22 +123,20 @@ padding: 53px 26px 50px;
 }
 
 .mobile-blk {
-  padding: 33px 0px;
+  padding: 39px 0px 10px;
 }
-.service-blk {
-  padding: 24px 0px;
-}
-.vis-tit {
-  font-size: 41px;
+
+.mob-tit,.ser-tit,.news-tit {
   font-weight: 200;
   color: #000000;
   position: relative;
-  margin-bottom: 25px;
 }
 
 span {
   color: #000000;
   border-bottom: 1px solid #c01920;
+  font-size: 36px;
+  letter-spacing: 3px;
 }
 .red {
   color: #cd5358;
@@ -128,11 +147,11 @@ span {
   margin-top: 14px;
 }
 
-.vis-tit::after {
+.mob-tit::after {
   position: absolute;
-  top: 124%;
+  top: 121%;
   right: 0px;
-  width: 96%;
+  width: 74%;
   height: 1px;
   background-color: #cccccc;
   content: '';
@@ -140,28 +159,28 @@ span {
 }
 
 .mobile {
-  background: url("../img/img_mobile.png") no-repeat right/contain;
+  background: url("../img/img_mobile.png") no-repeat center/contain;
+  padding: 65px 0px 17px;
 }
+
 .para {
   color: #000000;
   font-size: 12px;
-  padding: 40px 27px;
- line-height: 21px;
+  line-height: 21px;
+  padding: 0px 29px
 }
-
-/*.tit {
-  padding: 33px 32px;
-    margin: 17px -30px;*/
 
 
 .lft-blk {
   float: left;
   width: 48%;
+  margin-top: 10px;
 }
 
 .rgh-blk {
 width: 48%;
 float: right;
+margin: 14px -6px;
 }
 h3 {
   font-size: 24px;
@@ -175,16 +194,48 @@ h3 {
   line-height: 21px;
   color: #101010;
 }
-
+.ser-tit::after {
+  position: absolute;
+  top: 124%;
+  right: 0px;
+  width: 85%;
+  height: 1px;
+  background-color: #cccccc;
+  content: '';
+  transform: translateY(-50%);
+}
+.ser-tit {
+  margin-bottom: 10px;
+}
+.ser-tit span {
+  font-size: 36px;
+  letter-spacing: 7px;
+}
 .news-blk {
-padding: 38px 0;
+padding: 65px 0px;
 }
 
+.news-tit::after {
+  position: absolute;
+  top: 124%;
+  right: 0px;
+  width: 89%;
+  height: 1px;
+  background-color: #cccccc;
+  content: '';
+  transform: translateY(-50%);
+}
+.news-tit span {
+  font-size: 36px;
+  letter-spacing: 7px;
+}
 .news {
   background: url("../img/img_new.png") no-repeat center/contain;
-  padding: 33px 30px;
+  padding: 68px 31px 0px;
   width: 50%;
+  line-height: 9px;
 }
+
  .news li {
   margin-bottom: 30px;
  }
@@ -194,43 +245,47 @@ padding: 38px 0;
 .news li p {
   display: inline-block;
   font-size: 12px;
-  color: #c01920;
+  color: #000000;
 }
 .news li p.date {
-  color: #000000;
+  color: #c73036;
   font-weight: bold;
   padding-right: 30px;
 
 }
 
 .banner-blk {
-  margin-bottom: 65px;
-  padding: 10px 20px;
+  margin-bottom: 90px;
+  padding: 3px 0;
 }
 
-.deco-img{
-    margin-right: 14px;
-    margin-bottom: 15px;
+.banner-blk ul li{
+  margin-right: 18px;
+  float: left;
 }
 
-.deco-img:nth-child(4n){
+.banner-blk ul li:nth-child(4n){
   margin-right: 0;
 }
 
-/*.deco1,.deco2,.deco3{
-  margin-right: 14px;
-}*/
-
 .footer-nav a {
-  margin-left: 36px;
-  padding: 28px 0px;
-  font-size: 14px;
+  margin-left: 40px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #333333;
+  padding: 33px 0;
 }
 .copyright {
-  padding: 30px 48px;
-  font-size: 12px;
+ color: #333333;
 }
 
 .footer {
   background-color: #ffffff;
+}
+.footer-nav ul li {
+  float: left;
+} 
+
+a:hover {
+opacity: 0.7;
 }
