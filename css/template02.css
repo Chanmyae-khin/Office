@@ -159,7 +159,7 @@ span {
 }
 
 .mobile {
-  background: url("../img/img_mobile.png") no-repeat center/contain;
+  background: url("../img/img_mobile.png") no-repeat right/contain;
   padding: 65px 0px 17px;
 }
 
