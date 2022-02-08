@@ -80,30 +80,172 @@
   </div>
     <!-- banner -->
 
-   <div class="blk3">
+
+    <div class="blk3">
       <div class="inner"> 
          <h2 class="cmn-ttl">Our Top Products</h2>
          <h3 class="sub-tit">Lorem ipsum dolor sit amet, consectetur.</h3>
-         <div class="flower">
-           <ul class="clearfix">
-             <li class="img-blk">
-               <img src="img/img_fl1.png" alt="Flower1">
-               <div>
-                 <h4 class="imgblk-head">Lorem impsun </h4>
-                 <p class="imgblk-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                 <a href="#" class="cmn-btn"></a>
-               </div>
-             </li>
-             <li class="img-blk"></li>
-             <li class="img-blk"></li>
-             <li class="img-blk"></li>
-           </ul>
-         </div>
-      </div>
-   </div>
-   <!-- blk3 -->
+           <div class="flower">
+             <ul class="clearfix">
+               <li>
+                 <img src="img/img_fl1.png" alt="Flower1" class="img-shadow">
+                 <div class="txt-blk">
+                     <h4 class="pd-head">Lorem impsun </h4>
+                     <p class="pd-txt"> Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit, sed <br>do eiusmod tempor</p>
+                     <a href="#" class="cmn-btn">READ MORE</a>
+                 </div>
 
+               </li>
+               <li>
+                 <img src="img/img_fl2.png" alt="Flower2">
+                 <div class="txt-blk">
+                  <h4 class="pd-head">Lorem impsun </h4>
+                  <p class="pd-txt"> Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit, sed <br>do eiusmod tempor</p>
+                  <a href="#" class="cmn-btn">READ MORE</a>
+              </div>
+               </li>
+               <li>
+                 <img src="img/img_fl3.png" alt="Flower3">
+                 <div class="txt-blk">
+                  <h4 class="pd-head">Lorem impsun </h4>
+                  <p class="pd-txt"> Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit, sed <br>do eiusmod tempor</p>
+                  <a href="#" class="cmn-btn">READ MORE</a>
+              </div>
+               </li>
+               <li><img src="img/img_fl4.png" alt="Flower4">
+                <div class="txt-blk">
+                  <h4 class="pd-head">Lorem impsun </h4>
+                  <p class="pd-txt"> Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit, sed <br>do eiusmod tempor</p>
+                  <a href="#" class="cmn-btn">READ MORE</a>
+              </div>
+              </li>
+             </ul>
+            </div>
+     
   </div>
+</div>
+  <!--blk3-->
+   
+  <div class="blk4">
+    <div class="inner">
+        <h2 class="cmn-ttl">How we do it</h2>
+        <h3 class="sub-tit">Lorem ipsum dolor sit amet, consectetur.</h3>
+        <img src="img/img_blk4-img.png" alt="How We Do It" class="demo">
+    </div>
+  </div>
+      <!--blk4-->
+  <div class="blk5">
+<div class="inner">
+<a href="#" class="cmn-btn">SPECIAL OFFER</a>
+<p class="discount">20%</p>
+<p class="blk5-txt">Discount on your <br> 
+  <span> First purchase</span>
+ </p>
+</div>
+  </div>
+  <!--blk5-->
+   <div class="group"> 
+     <div class="inline">
+      <div class="blk6 clearfix">
+        <img src="img/img_blk6.png" alt="Blk6" class="img">
+        <div class="txt-blk">
+         <h2 class="cmn-ttl">We select the <br>
+          best flowers</h2>
+         <p class="body-txt">Lorem ipsum dolor sit amet, consecteur <br>adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna</p>
+         <a href="#" class="cmn-btn">READ MORE</a>
+        </div>
+      </div>
+      <!--blk6-->
+ 
+      <div class="blk7 clearfix">
+        <div class="txt-blk">
+          <h2 class="cmn-ttl">We take care <br>
+            of the details 
+           </h2>
+          <p class="body-txt">Lorem ipsum dolor sit amet, consecteur <br>adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna</p>
+          <a href="#" class="cmn-btn">READ MORE</a>
+         </div>
+         <img src="img/img_blk7.png" alt="Blk7" class="img">
+      </div>
+      <!--blk7-->
+      <div class="blk8 clearfix">
+        <img src="img/img_blk8.png" alt="Blk8" class="img">
+        <div class="txt-blk">
+         <h2 class="cmn-ttl">We love what <br>
+          we do </h2>
+         <p class="body-txt">Lorem ipsum dolor sit amet, consecteur <br>adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna</p>
+         <a href="#" class="cmn-btn">READ MORE</a>
+        </div>
+      </div>
+      <!--blk8-->
+      <div class="blk9">
+            <h2 class="cmn-ttl">Subscribe to our <br>
+              newsletter</h2>
+              
+          <p class="body-txt">Lorem ipsum dolor sit amet, consecteur adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua </p>
+          <form>
+            <input type="text" value="your name" class="name">
+            <input type="text" value="mail" class="mail">
+          <textarea name="Messages" class="messages">Messages</textarea>
+          <a href="#" class="cmn-btn">SEND MESSAGE</a>
+          </form>
+      </div>
+      <!--blk9-->
+   </div>
+  </div>
+   <!--group-->
+   <footer class="clearfix">
+     <div class="inner">
+    <nav class="footer-nav">
+      <ul class="clearfix">
+        <li class="footer-blk1">
+          <h3 class="footer-ttl">About</h3>
+       
+          <p><a href="#" class="contact">History</a></p>
+          <p><a href="#">Our Team</a></p>
+          <p><a href="#">Mission Statement</a></p>
+          <p><a href="#">Terms&Condition</a></p>
+          <p><a href="#">Privacy Policy</a></p>
+        
+   
+        <li class="footer-blk2"><h3 class="footer-ttl">What we do</h3>
+          <p><a href="#">News and stories</a></p>
+          <p><a href="#">Publications</a></p>
+          <p><a href="#">Take action</a></p>
+          <p><a href="#">Recomendations</a></p>
+          <p><a href="#">Help</a></p>
+
+        </li>
+        <li class="footer-blk3"><h3 class="footer-ttl">Your Copany</h3>
+         <address>
+           <p><a href="#">Halimun Street 25</a></p>
+          <p> <a href="#">Jarkarta,City 1234</a></p>
+           <p><a href="mailto:www.yourflowersite.com">www.yourflowersite.com</a></p>
+         </address>
+        </li>
+      </ul>
+
+      <!--<div class="follow">
+        <p>Follow us!</p>
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </div>-->
+
+    </nav>
+
+   <div class="follow">
+    <ul class="contact clearfix">
+     <li><p>Follow us!</p></li>
+    <li> <a href="#"><img src="img/img_fb.png" alt="Facebook" class="fb"></a></li>
+     <li> <a href="#"><img src="img/img_ig.png" alt="Instagram" class="ig"></a></li>
+     <li><a href="#"><img src="img/img_yt.png" alt="Youtube" class="yt"></a></li>
+    </ul>
+   </div>
+
+  
+  </div>
+   </footer>
 </body>
 
 </html>
