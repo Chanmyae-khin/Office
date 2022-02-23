@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.main-vs {
+  background: url("../img/img_logo2.png")no-repeat center/cover;
+}
+.rgh-blk {
+  margin: 53px 13px 0 0;
+}
+.main-tit {
+  padding: 85px 108px 51px;
+}
